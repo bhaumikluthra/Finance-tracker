@@ -1,11 +1,11 @@
 :root {
-  background-color: #ffffff;
+  --bg: #ffffff;
   --text: #111827;
   --card:#f6f6f7;
   --accent:#2b6cb0;
 }
 [data-theme="dark"] {
-  background-color: #0b1220;
+  --bg: #0b1220;
   --text: #e6eef8;
   --card:#0f1724;
   --accent:#46a3ff;
@@ -16,7 +16,7 @@ html,body,#root{
   height: 100%;
   margin:0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background-color: var(background-color);
+  background-color: var(--bg);
   color:var(--text);
 }
 
